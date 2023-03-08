@@ -1,0 +1,21 @@
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-top: 4px;
+  background: #251035;
+  padding: 8px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.todo-icon {
+  width: 23px;
+  height: 23px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
